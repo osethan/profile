@@ -1,0 +1,26 @@
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+body {
+  background-color: azure;
+}
+
+.profile {
+  width: 15em;
+  height: 20em;
+}
+
+/* .project {
+  width: 30em;
+} */
+
+.project-photo {
+  width: 5em;
+  height: 5em;
+}
