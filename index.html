@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" href="favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Web Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="m-3">
+        <!-- Profile -->
+        <div class="d-flex justify-content-center m-3">
+          <img src="./assets/professional.jpg" alt="Profile" class="profile-photo rounded" />
+        </div>
+        <!-- Socials -->
+        <div class="d-flex justify-content-center m-3">
+          <a href="https://github.com/osethan" class="btn btn-social-icon btn-github mx-3">
+            <span class="fa fa-github text-light"></span>
+          </a>
+          <a href="https://www.linkedin.com/in/ethan-davis-seattle/" class="btn btn-social-icon btn-linkedin mx-3">
+            <span class="fa fa-linkedin text-light"></span>
+          </a>
+        </div>
+        <!-- Bio -->
+        <div class="bio d-flex justify-content-center m-3">
+          <p class="text-justify">I’m Ethan Davis a Software Development Engineer in the Greater Seattle Area. I’ve written many Full-Stack websites and Back-End applications. I’ve written extensively in languages JavaScript, Python, Java, SQL, HTML, and CSS. I know frameworks and tools Node.js, React.js, AWS, Docker, Git, Regex, and BASH. I’m experienced with models for Agile, system design, OOP, and TDD. Outside work I like fitness, fashion, planning for the future, and role modeling.</p>
+        </div>
+        <!-- Projects -->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="border rounded px-3 mb-3">
+              <a href="https://twocatholler.s3-us-west-2.amazonaws.com/index.html">
+                <div class="d-flex justify-content-around m-3">
+                  <img src="./assets/twocatholler.jpg" alt="TwoCatHoller" class="project-photo rounded" />
+                  <div>
+                    <p>TwoCatHoller</p>
+                    <p>June 2020</p>
+                  </div>
+                </div>
+                <p>React.js &middot; AWS &middot; Node.js &middot; Bootstrap</p>
+                <p>A website I made for my Dad showing artwork he's made in his liftime. He can create new, update existing, or delete content of the website. To build the website I used React.js for the front-end, Bootstrap to style; and AWS Organizations, IAM, S3, API Gateway, Lambda, and Athena for the back-end. The expected cost of the website is $0.005/mo, and saves over $38/yr being built with serverless Lambda and not EC2 servers.</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="border rounded px-3 mb-3">
+              <a href="https://triangle-peg-solitaire.s3-us-west-2.amazonaws.com/index.html">
+                <div class="d-flex justify-content-around m-3">
+                  <img src="./assets/triangle-peg-solitaire.jpg" alt="Triangle Peg Solitaire" class="project-photo rounded" />
+                  <div>
+                    <p>Triangle Peg Solitaire</p>
+                    <p>June 2020</p>
+                  </div>
+                </div>
+                <p>React.js &middot; AWS &middot; Bootstrap</p>
+                <p>Triangle Peg Solitaire is a board game I started studying outside class in my last year of college. I’ve built a website showing solutions with React.js, Bootstrap, and AWS S3. Choosing a public S3 Standard-IA option makes the expected monthly cost of the website $0.003/mo, and saves over x1,000 or $3/mo as a similar AWS EC2 option.</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
