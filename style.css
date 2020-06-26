@@ -11,14 +11,10 @@ body {
   background-color: azure;
 }
 
-.profile {
+.profile-photo {
   width: 15em;
   height: 20em;
 }
-
-/* .project {
-  width: 30em;
-} */
 
 .project-photo {
   width: 5em;
